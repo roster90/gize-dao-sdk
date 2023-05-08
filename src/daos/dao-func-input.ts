@@ -63,4 +63,6 @@ export class DaoRefInput extends DaoFRefFunc<TransactionBlock>{
         tx = configGasBudget(tx, gasBudget)
         return tx;  
       }
+
+
 }

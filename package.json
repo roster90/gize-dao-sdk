@@ -1,9 +1,9 @@
 {
   "name": "gize-dao-sdk",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
+  "description": "using in gize-dao",
+  "author": "roster",
+  "private": false,
   "license": "UNLICENSED",
   "scripts": {
     "build": "nest build",
@@ -68,5 +68,17 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roster90/gize-dao-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roster90/gize-dao-sdk/issues"
+  },
+  "homepage": "https://github.com/roster90/gize-dao-sdk#readme"
 }
